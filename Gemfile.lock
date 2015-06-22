@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    embulk-plugin-ruby-pass (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  embulk-plugin-ruby-pass!
+  rake
