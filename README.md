@@ -13,4 +13,8 @@ $ embulk run -I lib example.yml
 embulk run -I lib example.yml  24.60s user 0.83s system 268% cpu 9.481 total
 ```
 
+```
+Committed - Loading files = 2.152 sec
+```
+
 Compare with Java version: https://github.com/sonots/embulk-filter-java-pass
