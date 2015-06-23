@@ -11,7 +11,9 @@ in:
     null_string: 'NULL'
     header_line: false
     columns:
-    - {name: value1, type: string}
+    - {name: id, type: long}
+    - {name: name, type: string}
+    - {name: score, type: long}
 filters:
   - type: ruby_pass
 out:
