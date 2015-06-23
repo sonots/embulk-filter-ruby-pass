@@ -1,7 +1,7 @@
-# Embulk filter plugin for data extraction
+# Ruby Pass filter plugin for Embulk
 
 ```
-$ embulk gem install embulk-plugin-input-random
+$ embulk gem install embulk-input-random
 $ embulk run random.yml
 ```
 
