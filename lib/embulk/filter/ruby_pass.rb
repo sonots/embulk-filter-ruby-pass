@@ -1,7 +1,7 @@
 module Embulk
-  module Plugin
+  module Filter
 
-    class FilterRubyPass < FilterPlugin
+    class RubyPass < FilterPlugin
       Plugin.register_filter('ruby_pass', self)
 
       def self.transaction(config, in_schema, &control)
