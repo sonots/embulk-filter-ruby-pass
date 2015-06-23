@@ -13,6 +13,6 @@ in:
     columns:
     - {name: value1, type: string}
 filters:
-  - type: "ruby-pass"
+  - type: ruby_pass
 out:
   type: "null"
